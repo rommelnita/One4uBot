@@ -21,7 +21,7 @@ api_id = 8432622  # API ID
 api_hash = '1911d40c63e90803fc62d64f1678b9a3'  #API HASH
 phone = '+6282246498229'  #NUMBER WITH COUNTRY CODE
 timer = 120 #TIME TO WAIT BEFORE NEXT SENDING
-msgtosend = "Metpagi" # MESSAGE TO SEND
+msgtosend = "cuma tes" # MESSAGE TO SEND
 client = TelegramClient(phone, api_id, api_hash)
 client.connect()
 if not client.is_user_authorized():
